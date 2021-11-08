@@ -4,9 +4,6 @@ import lilGuiUmd from 'lil-gui';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import { Raycaster } from 'three';
 
-var PORT = process.env.PORT || 3000
-
-
 
 // GUI 
 // const gui = new lilGuiUmd();
