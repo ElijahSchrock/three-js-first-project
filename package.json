@@ -5,6 +5,11 @@
   "engines": {
     "node": "17.0.1"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index",
+    "start": "node index"
+  }
   "devDependencies": {
     "lil-gui": "^0.11.0",
     "vite": "^2.6.4"
