@@ -10,11 +10,6 @@ import { Raycaster } from 'three';
 // GUI 
 // const gui = new lilGuiUmd();
 
-// gui.add(world.plane, "width", 1, 50, .5).onChange (generatePlane)
-// gui.add(world.plane, "height", 1, 50, .5).onChange (generatePlane)
-// gui.add(world.plane, "widthSegments", 1, 100, .5).onChange (generatePlane)
-// gui.add(world.plane, "heightSegments", 1, 100, .5).onChange (generatePlane)
-
 const world = {
   plane: {
     width: 40,
@@ -24,6 +19,12 @@ const world = {
   }
 
 }
+
+// gui.add(world.plane, "width", 1, 50, .5).onChange (generatePlane)
+// gui.add(world.plane, "height", 1, 50, .5).onChange (generatePlane)
+// gui.add(world.plane, "widthSegments", 1, 100, .5).onChange (generatePlane)
+// gui.add(world.plane, "heightSegments", 1, 100, .5).onChange (generatePlane)
+
 
 // function to simplify code to update plane when control values are moved
 function generatePlane () {
