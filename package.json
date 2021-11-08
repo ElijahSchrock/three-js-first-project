@@ -1,10 +1,7 @@
 {
   "name": "my-portfolio",
-  "description": "my threeJS portfolio",
+  "description": "ma threeJS portfolio",
   "version": "17.0.1",
-  "engines": {
-    "node": "17x"
-  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
