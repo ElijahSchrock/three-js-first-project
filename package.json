@@ -6,12 +6,16 @@
     "node": "17.0.1"
   },
   "scripts": {
-      "start": "node index.js"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
-"dependencies": {
+  "dependencies": {
     "gsap": "^3.8.0",
-    "three": "^0.134.0",
     "lil-gui": "^0.11.0",
+    "three": "^0.134.0"
+  },
+  "devDependencies": {
     "vite": "^2.6.4"
   }
 }
