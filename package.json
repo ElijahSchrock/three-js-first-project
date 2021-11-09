@@ -1,6 +1,8 @@
 {
   "name": "my-portfolio",
   "description": "ma threeJS portfolio",
+  "main": "main.js",
+  "type": "module",
   "version": "1.0.0",
   "engines": {
     "node": "17.0.1"
@@ -13,7 +15,8 @@
   "dependencies": {
     "gsap": "^3.8.0",
     "lil-gui": "^0.11.0",
-    "three": "^0.134.0"
+    "three": "^0.134.0",
+    "vite": "^2.6.4"
   },
   "devDependencies": {
     "vite": "^2.6.4"
