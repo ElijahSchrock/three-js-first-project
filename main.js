@@ -1,3 +1,4 @@
+
 import { gsap } from 'gsap';
 import * as THREE from 'three';
 import lilGuiUmd from 'lil-gui';
@@ -79,7 +80,7 @@ scene.add( camera );
 // Renderer
 const renderer = new THREE.WebGLRenderer();
 renderer.setSize(innerWidth, innerHeight);
-renderer.setPixelRatio(devicePixelRatio);
+renderer.setPixelRatio(window.devicePixelRatio);
 document.body.appendChild(renderer.domElement);
 renderer.render(scene, camera)
 
