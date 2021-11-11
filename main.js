@@ -69,8 +69,8 @@ const raycaster = new THREE.Raycaster()
 
 // Camera
 
-var innerWidth = 600
-var innerHeight = 600
+var innerWidth = window.innerWidth
+var innerHeight = window.innerHeight
 
 const camera = new THREE.PerspectiveCamera(75, innerWidth/ innerHeight, 0.1, 1000); 
 camera.position.z = 5
